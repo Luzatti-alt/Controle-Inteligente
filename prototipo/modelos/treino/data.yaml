@@ -1,7 +1,12 @@
-train: train/images
-val: valid/images
-test: test/images
-
-names: 
-  0: Desodorante Azul
-  1: Garrafa
+names:
+- Desodorante Azul
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: objetos-gerais
+  url: https://universe.roboflow.com/lucass-workspace-orwec/objetos-gerais/dataset/2
+  version: 2
+  workspace: lucass-workspace-orwec
+test: C:\Users\Lucas\coding\Controle-Inteligente\dataset/test/images
+train: C:\Users\Lucas\coding\Controle-Inteligente\dataset/train/images
+val: C:\Users\Lucas\coding\Controle-Inteligente\dataset/valid/images
